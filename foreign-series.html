@@ -1,48 +1,64 @@
+
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ซีรี่ย์ต่างชาติ - ScenePack</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body { background-color: #0f172a; color: #e2e8f0; }
-    .card { background-color: #1e293b; }
-  </style>
+    <meta charset="UTF-8">
+    <title>ซีรีส์ต่างชาติ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            padding: 2rem;
+        }
+        .item {
+            background-color: #161b22;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        }
+        h3 {
+            color: #58a6ff;
+        }
+        .tags {
+            margin: 0.5rem 0;
+        }
+        .tag {
+            background: #4fafff;
+            color: #000;
+            padding: 2px 8px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            margin-right: 0.5rem;
+            display: inline-block;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <header class="p-4 shadow-lg bg-gray-900">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold text-blue-400">ScenePack Store</h1>
-      <nav class="space-x-4 text-sm">
-        <a href="index.html" class="hover:underline text-gray-300">หน้าหลัก</a>
-        <a href="thai-movie.html" class="hover:underline text-gray-300">หนังไทย</a>
-        <a href="foreign-movie.html" class="hover:underline text-gray-300">หนังฝรั่ง</a>
-        <a href="thai-series.html" class="hover:underline text-gray-300">ซีรี่ย์ไทย</a>
-        <a href="foreign-series.html" class="hover:underline text-gray-300">ซีรี่ย์ต่างชาติ</a>
-      </nav>
+    <h1>ซีรีส์ต่างชาติ</h1>
+    <div class="item">
+        <h3>ScenePack - "Train to Busan"</h3>
+        <div class="tags">
+            <span class="tag">เขย่าขวัญ</span>
+            <span class="tag">ซอมบี้</span>
+        </div>
+        <p>ฉากระทึกจากหนังเกาหลีแนวซอมบี้สุดมันส์</p>
+        <a href="#">ดาวน์โหลดฟรี</a>
     </div>
-  </header>
-  <main class="max-w-5xl mx-auto p-6">
-    <h2 class="text-3xl font-bold mb-6">ซีรี่ย์ต่างชาติ</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-      
-<div class="card p-4 rounded-lg shadow hover:shadow-xl transition">
-  <h3 class="text-xl font-semibold mb-2">ScenePack: Stranger Things</h3>
-  <p class="text-gray-400 text-sm mb-4">ดาวน์โหลด ScenePack ฟรี</p>
-  <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500">ดาวน์โหลด</a>
-</div>
-
-<div class="card p-4 rounded-lg shadow hover:shadow-xl transition">
-  <h3 class="text-xl font-semibold mb-2">ScenePack: Money Heist</h3>
-  <p class="text-gray-400 text-sm mb-4">ดาวน์โหลด ScenePack ฟรี</p>
-  <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500">ดาวน์โหลด</a>
-</div>
-
+    <div class="item">
+        <h3>ScenePack - "My Name"</h3>
+        <div class="tags">
+            <span class="tag">แอคชั่น</span>
+            <span class="tag">ดราม่า</span>
+        </div>
+        <p>ฉากแอคชั่นสุดมันส์จากซีรีส์เกาหลี</p>
+        <a href="#">ดาวน์โหลดฟรี</a>
     </div>
-  </main>
-  <footer class="text-center text-gray-500 text-sm py-8">
-    &copy; 2025 ScenePack Store.
-  </footer>
 </body>
 </html>
